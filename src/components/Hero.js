@@ -12,6 +12,9 @@ export const Hero = () => {
 
     const handleMenu = () => {
         setanimstate( {menuOpened: !menuOpened} );
+        ( menuOpened )
+        ? document.body.style.overflow = "visible"
+        : document.body.style.overflow = "hidden";
     }
 
     return (

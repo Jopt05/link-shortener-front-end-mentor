@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "https://jopt05.github.io/link-shortener-front-end-mentor/static/css/main.047ac0a6.chunk.css",
-    "main.js": "https://jopt05.github.io/link-shortener-front-end-mentor/static/js/main.be994564.chunk.js",
-    "main.js.map": "https://jopt05.github.io/link-shortener-front-end-mentor/static/js/main.be994564.chunk.js.map",
+    "main.css": "https://jopt05.github.io/link-shortener-front-end-mentor/static/css/main.8ad6fcf9.chunk.css",
+    "main.js": "https://jopt05.github.io/link-shortener-front-end-mentor/static/js/main.94bede37.chunk.js",
+    "main.js.map": "https://jopt05.github.io/link-shortener-front-end-mentor/static/js/main.94bede37.chunk.js.map",
     "runtime-main.js": "https://jopt05.github.io/link-shortener-front-end-mentor/static/js/runtime-main.0c9a6f5c.js",
     "runtime-main.js.map": "https://jopt05.github.io/link-shortener-front-end-mentor/static/js/runtime-main.0c9a6f5c.js.map",
     "static/js/2.c55370d3.chunk.js": "https://jopt05.github.io/link-shortener-front-end-mentor/static/js/2.c55370d3.chunk.js",
     "static/js/2.c55370d3.chunk.js.map": "https://jopt05.github.io/link-shortener-front-end-mentor/static/js/2.c55370d3.chunk.js.map",
     "index.html": "https://jopt05.github.io/link-shortener-front-end-mentor/index.html",
-    "static/css/main.047ac0a6.chunk.css.map": "https://jopt05.github.io/link-shortener-front-end-mentor/static/css/main.047ac0a6.chunk.css.map",
+    "static/css/main.8ad6fcf9.chunk.css.map": "https://jopt05.github.io/link-shortener-front-end-mentor/static/css/main.8ad6fcf9.chunk.css.map",
     "static/js/2.c55370d3.chunk.js.LICENSE.txt": "https://jopt05.github.io/link-shortener-front-end-mentor/static/js/2.c55370d3.chunk.js.LICENSE.txt",
     "static/media/index.css": "https://jopt05.github.io/link-shortener-front-end-mentor/static/media/bg-shorten-mobile.41c34b33.svg",
     "static/media/icon-brand-recognition.c349d3b6.svg": "https://jopt05.github.io/link-shortener-front-end-mentor/static/media/icon-brand-recognition.c349d3b6.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.0c9a6f5c.js",
     "static/js/2.c55370d3.chunk.js",
-    "static/css/main.047ac0a6.chunk.css",
-    "static/js/main.be994564.chunk.js"
+    "static/css/main.8ad6fcf9.chunk.css",
+    "static/js/main.94bede37.chunk.js"
   ]
 }

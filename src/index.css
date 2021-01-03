@@ -88,6 +88,7 @@ p, a {
 
 .hero__header {
   display: flex;
+  position: relative;
   align-items: center;
   height: 60px;
   margin-bottom: 70px;

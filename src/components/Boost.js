@@ -17,22 +17,22 @@ export const Boost = () => {
                 <div className="footer__div">
                     <div className="footer__div-links">
                         <p className="footer__div-links-title">Features</p>
-                        <a href="#" className="footer__div-links-link">Link Shortening</a>
-                        <a href="#" className="footer__div-links-link">Branded Links</a>
-                        <a href="#" className="footer__div-links-link">Analytics</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">Link Shortening</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">Branded Links</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">Analytics</a>
                     </div>
                     <div className="footer__div-links">
                         <p className="footer__div-links-title">Resources</p>
-                        <a href="#" className="footer__div-links-link">Blog</a>
-                        <a href="#" className="footer__div-links-link">Developers</a>
-                        <a href="#" className="footer__div-links-link">Support</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">Blog</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">Developers</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">Support</a>
                     </div>
                     <div className="footer__div-links">
                         <p className="footer__div-links-title">Company</p>
-                        <a href="#" className="footer__div-links-link">About</a>
-                        <a href="#" className="footer__div-links-link">Our Team</a>
-                        <a href="#" className="footer__div-links-link">Careers</a>
-                        <a href="#" className="footer__div-links-link">Contact</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">About</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">Our Team</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">Careers</a>
+                        <a href="http://puentes.intech5g.com/" target="_blank" className="footer__div-links-link">Contact</a>
                     </div>
                 </div>
                 <div className="footer__social">
