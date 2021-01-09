@@ -4,6 +4,8 @@ import Img2 from '../assets/icon-detailed-records.svg'
 import Img3 from '../assets/icon-fully-customizable.svg'
 import { useFetch } from '../hooks/useFetch';
 import { useForm } from '../hooks/useForm';
+import { Link } from '../components/Link'
+import { Form } from './Form';
 
 const initialState = JSON.parse( localStorage.getItem('links') ) || [];
 
@@ -34,29 +36,9 @@ export const Shortener = () => {
 
     return (
         <div className="animate__animated animate__fadeIn shortener padding">
-            <form onSubmit={ handleSubmit } className={` shortener__form ${ validInput ? '' : 'wrongValue' } `}>
-                <input 
-                    onChange={ handleInputChange }
-                    value={ shortenerInput }
-                    name="shortenerInput" 
-                    className="shortener__form-input" 
-                    type="text" 
-                    placeholder="Shorten a link here..."
-                />
-                <label htmlFor="shortener" className="shortener__form-label">Please add a link</label>
-                <button type="submit" className="button">
-                    { loading ? 'Loading...' : 'Shorten it!' }
-                </button>
-            </form>
+            <Form handleSubmit={ handleSubmit } validInput={ validInput } shortenerInput={ shortenerInput } loading={ loading } handleInputChange={ handleInputChange } />
             <div ref={ linksContainer } className="shortener__links">
-                {
-                    data.map( l => ( 
-                    <div className="animate__animated animate__zoomIn shortener__links-link" key={ l.id }>
-                        <p className="shortener__links-link-origin"> {l.origin} </p>
-                        <a target="_blank" href={`https://${l.shorten}`} className="shortener__links-link-short"> {l.shorten} </a>
-                        <button onClick={ () => handleCopy( l.id ) } className={ `button ${ l.copied ? 'buttonCopied' : '' }` }>{ l.copied ? 'Copied!' : 'Copy' }</button>
-                    </div> ) )
-                }
+                <Link data={ data } handleCopy={ handleCopy } />
             </div>
             <h2>Advanced Statistics</h2>
             <p className="h2Sub">
